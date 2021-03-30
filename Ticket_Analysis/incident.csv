@@ -1,0 +1,380 @@
+number,caller_id,description,short_description,sys_created_on,cmdb_ci,priority,assignment_group,severity
+INC6110268,IBM NetCool,"Summary: Oracle avh1002p Auto-Extend tablespace:TBSDATA used space is high:90%.
+
+Date: 02/03/2020	Severity: Critical
+ResourceId: dbr32xjbx_A.xjb.ibmit.bluecare.ibm.com
+TicketGroup: cd4e614d0fd49600a8a0e388b1050ebb	CustomerCode: xjb
+InstanceId: avh1002p:TBSDATA
+InstanceValue: TABLESPACE USED SPACE IS HIGH
+InstanceSituation: Auto-extend tablespace space usage high
+ComponentType: Database
+Component: Oracle
+SubComponent: Unknown
+ApplId: ORACLE
+MsgId: ORATSA499E
+Node: xjb_dbr32xjbx_A
+NodeAlias: 10.59.5.164
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_tsautex_g12c_ora
+AlertGroup: ITM_K12_AUTOEXTEND_TABLESPACE
+EventType: 32781
+MonitoringSolution: ora
+EventKey: IT01NO1SR3P:65651153:xjb
+The event was auto-resolved 1 times and reoccurs, the incident history is: INC6108270.",dbr32xjbx_A Oracle avh1002p Auto-Extend tablespace:TBSDATA used space is high:90%.,2020-02-03 12:29:29,dbr32xjbx,2 - Medium,E_XXX_XXX_DIST-DAT-DATABASE_IBM,3 - Low
+INC6168056,IBM NetCool,"ORGTICKETGROUP=cd4e614d0fd49600a8a0e388b1050ebb
+Summary: High space used (75%. 25856 MB free) for /db/cnhfli/arch Attention commas replaced by dots.
+
+Date: 02/17/2020	Severity: Minor
+ResourceId: dbq21gbfx.xjr.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: xjr
+Event received out side of service hours.
+Location: PERO
+InstanceId: /db/cnhfli/arch
+InstanceValue: 75%/25856
+InstanceSituation: Filesystem usage threshold reached
+ComponentType: OperatingSystem
+Component: AIX
+SubComponent: FileSystem
+ApplId: AIX
+MsgId: AIXTSA203E
+Node: xjr_dbq21gbfx
+NodeAlias: 10.240.143.71
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_fss_x07m_ora
+AlertGroup: ITM_K07_FILESYSTEMMONITOR
+EventType: 20183
+MonitoringSolution: ora
+EventKey: IT01NO1SR3P:66083821:xjr
+The event was auto-resolved 14 times and reoccurs, the incident history is: INC6096140,INC6113424,INC6113522,INC6163489,INC6164375,INC6164409,INC6164458,INC6164577,INC6164689,INC6165487,INC6165705,INC6165881,INC6166916,INC6167378.
+ Flapping condition was previously reached. Incident is opened in Human Group, only manual resolution is possible.",dbq21gbfx High space used (75%. 25856 MB free) for /db/cnhfli/arch Attention commas replaced by dots,2020-02-17 04:19:07,DBQ21GBFX,3 - Low,E_XXX_XXX_DIST-DAT-DATABASE_IBM,3 - Low
+INC6170398,IBM NetCool,"ORGTICKETGROUP=494e614d0fd49600a8a0e388b1050ebd
+Summary: Windows Service:ShellHWDetection has a problem. Run status:NOT_RUNNING
+
+Date: 02/17/2020	Severity: Warning
+ResourceId: dcp00cnhw.w82.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: w82
+Location: PERO
+InstanceId: ShellHWDetection
+InstanceValue: NOT_RUNNING
+InstanceSituation: problem with service status
+ComponentType: OperatingSystem
+Component: Windows
+SubComponent: Service
+ApplId: WIN
+MsgId: WINTSA495E
+Node: w82_dcp00cnhw
+NodeAlias: 141.86.234.255
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_svcprb_g06w_win
+AlertGroup: ITM_K06_SERVICES
+EventType: 33163
+MonitoringSolution: win
+EventKey: IT01NO1SR3P:66100422:w82
+The event was auto-resolved 24 times and reoccurs, the incident history is: INC6167920,INC6168090,INC6168112,INC6168147,INC6168165,INC6168192,INC6168218,INC6168252,INC6168269,INC6168288,INC6168327,INC6168364,INC6168417,INC6168478,INC6168548,INC6168821,INC6168946,INC6169165,INC6169541,INC6169669,INC6169779,INC6169970,INC6170193,INC6170300.
+ Flapping condition was previously reached. Incident is opened in Human Group, only manual resolution is possible.",dcp00cnhw Windows Service:ShellHWDetection has a problem. Run status:NOT_RUNNING,2020-02-17 13:23:39,DCP00CNHW,3 - Low,N_XXX_XXX_Dynamic_Automation_Support,3 - Low
+INC6169794,IBM NetCool,"Summary: CRITICAL JOB P01C35D HAS NOT RUN ON HPDC
+
+Date: 17 Feb 2020 05:46:04	Severity: Critical
+TicketGroup: COE	CustomerCode: chr
+InstanceId: JobName(AOJNAME) MsgId(CRITICAL)17 Feb 2020 05:46:04
+InstanceValue: SYSTEM
+ComponentType: Mainframe
+Component: ATM_
+SubComponent: CRITICAL_AOJNAME
+MsgId: Source: ATM_
+Node: A01A
+NodeAlias: A01A
+Manager: ATM_: hpdc.hpdc.chrysler.com 151.171.109.202
+Agent: socket probe on shibmp008
+EventKey: IT01NO1SR3P:66097576:chr",A01A CRITICAL JOB P01C35D HAS NOT RUN ON HPDC,2020-02-17 11:46:29,AF Operator-N-P,2 - Medium,N_USA_XXX_CENTRAL ORDER ENTRY,3 - Low
+INC6167105,IBM NetCool,"Summary: Cleared and Re-fired: all_avgresp_gync_was_ord_k[(Application_name<>' AND Average_Request_Response_Time>2000 ) ON apl15xjbxNo-6:xjb_apl15xjbx:KYNS ON 0 (Application_name=[unknown] Average_Request_Response_Time=266573 )]
+
+Date: 02/16/2020	Severity: Critical
+ResourceId: apl15xjbx.xjb.ibmit.bluecare.ibm.com
+TicketGroup: 094e614d0fd49600a8a0e388b1050eb9	CustomerCode: xjb
+Event received out side of service hours.
+Location: MILANO CASCIA
+InstanceId: apl15xjbxNo-6
+InstanceSituation: all_avgresp_gync_was_ord_k
+ComponentType: Application
+Component: WebSphere
+SubComponent: Unknown
+ApplId: WEBSPHERE
+MsgId: WASTSA053I
+Node: apl15xjbx
+NodeAlias: 151.92.116.188
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_avgresp_gync_was_ord_k
+AlertGroup: ITM_Request_Times_and_Rates
+EventType: 39504
+MonitoringSolution: was
+EventKey: IT01NO1SR3P:66063050:xjb
+The event was auto-resolved 28 times and reoccurs, the incident history is: INC6081317,INC6083771,INC6085511,INC6089221,INC6089388,INC6089786,INC6091215,INC6093350,INC6093591,INC6094057,INC6095069,INC6099382,INC6101050,INC6104400,INC6104989,INC6105525,INC6106288,INC6110070,INC6114027,INC6130556,INC6136232,INC6143878,INC6146781,INC6160032,INC6164301,INC6164584,INC6166653,INC6167039.
+ Flapping condition was previously reached. Incident is opened in Human Group, only manual resolution is possible.",apl15xjbx Cleared and Re-fired: all_avgresp_gync_was_ord_k[(Application_name<>' AND Average_Request_,2020-02-16 13:13:19,apl15xjbx,3 - Low,E_XXX_XXX_DIST-AHS-WEBMSC_IBM,3 - Low
+INC6167962,IBM NetCool,"Summary: CRITICAL JOB BESUA01D HAS NOT STARTED ON ODDC
+
+Date: 16 Feb 2020 20:45:05	Severity: Critical
+TicketGroup: MARCS	CustomerCode: chr
+InstanceId: JobName(AOJNAME) MsgId(CRITICAL)16 Feb 2020 20:45:05
+InstanceValue: SYSTEM
+ComponentType: Mainframe
+Component: ATM_
+SubComponent: CRITICAL_AOJNAME
+MsgId: Source: ATM_
+Node: B05A
+NodeAlias: B05A
+Manager: ATM_: oddc.oddc.chrysler.com 151.171.173.75
+Agent: socket probe on shibmp008
+EventKey: IT01NO1SR3P:66082095:chr",B05A CRITICAL JOB BESUA01D HAS NOT STARTED ON ODDC,2020-02-17 02:45:43,AF Operator-N-P,2 - Medium,N_USA_XXX_RUN_MATERIALS SUPPT,3 - Low
+INC6165663,IBM NetCool,"ORGTICKETGROUP=494e614d0fd49600a8a0e388b1050ebd
+Summary: Windows Service:gupdate has a problem. Run status:NOT_RUNNING
+
+Date: 02/15/2020	Severity: Warning
+ResourceId: itd00cnhw.w82.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: w82
+Event received out side of service hours.
+InstanceId: gupdate
+InstanceValue: NOT_RUNNING
+InstanceSituation: problem with service status
+ComponentType: OperatingSystem
+Component: Windows
+SubComponent: Service
+ApplId: WIN
+MsgId: WINTSA495E
+Node: w82_itd00cnhw
+NodeAlias: 10.246.0.86
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_svcprb_g06w_win
+AlertGroup: ITM_K06_SERVICES
+EventType: 33163
+MonitoringSolution: win
+EventKey: IT01NO1SR3P:66032150:w82
+The event was auto-resolved 8 times and reoccurs, the incident history is: INC6067829,INC6095006,INC6106215,INC6113807,INC6123803,INC6132095,INC6141335,INC6148183.
+ Flapping condition was previously reached. Incident is opened in Human Group, only manual resolution is possible.",itd00cnhw Windows Service:gupdate has a problem. Run status:NOT_RUNNING,2020-02-15 14:45:00,,3 - Low,E_XXX_XXX_DIST-SMD-WINTEL_IBM,3 - Low
+INC6170369,IBM NetCool,"Summary: IEF450I KMVP0046 STEP220 OF2 - ABEND = S000 U0099
+
+Date: 17 Feb 2020 07:18:06	Severity: Critical
+TicketGroup: CCTR,VHORP	CustomerCode: chr
+InstanceId: JobName(KMVP0046) MsgId(IEF450I)
+InstanceValue: JOB
+ComponentType: Mainframe
+Component: ATM_
+SubComponent: IEF450I_KMVP0046
+MsgId: Source: ATM_
+Node: B05A
+NodeAlias: B05A
+Manager: ATM_: oddc.oddc.chrysler.com 151.171.173.75
+Agent: socket probe on shibmp008
+EventKey: IT01NO1SR3P:66100326:chr",B05A IEF450I KMVP0046 STEP220 OF2 - ABEND = S000 U0099,2020-02-17 13:18:30,AF Operator-N-P,3 - Low,N_USA_XXX_COMMAND CENTER,3 - Low
+INC6164297,IBM NetCool,"ORGTICKETGROUP=8e7b810d6fe97500ae07b03f5d3ee4ea
+Summary: MSSQL Database:ChryslerMex is unavailable
+
+Date: 02/14/2020	Severity: Warning
+ResourceId: stxh001crap01.chr.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: chr
+InstanceId: SRVR8611
+InstanceSituation: chr_dboffln_goqw_mssql
+ComponentType: NAFTA_ITCAM
+Component: Generic
+SubComponent: Unknown
+Node: chr_stxh001crap01
+NodeAlias: 10.152.16.202
+Manager: EIF Probe on shibmp008
+Agent: EIF Probe on shibmp008
+AlertKey: chr_dboffln_goqw_mssql
+AlertGroup: Omegamon_Base
+EventType: 41890
+MonitoringSolution: mssql
+EventKey: IT01NO1SR3P:66010261:chr",stxh001crap01 MSSQL Database:ChryslerMex is unavailable,2020-02-14 22:51:57,stxh001crap01,3 - Low,N_USA_XXX_IBM SQL DATABASE SUPPT,3 - Low
+INC6170257,IBM NetCool,"Summary: IEF450I JTPS025Z STEP005 OF006 - ABEND = S000 U0099
+
+Date: 17 Feb 2020 06:56:43	Severity: Critical
+TicketGroup: CCTR,SSINV	CustomerCode: chr
+InstanceId: JobName(JTPS025Z) MsgId(IEF450I)
+InstanceValue: JOB
+ComponentType: Mainframe
+Component: ATM_
+SubComponent: IEF450I_JTPS025Z
+MsgId: Source: ATM_
+Node: P36A
+NodeAlias: P36A
+Manager: ATM_: dcdctrm1.dcdc.chrysler.com 151.171.173.162
+Agent: socket probe on shibmp008
+EventKey: IT01NO1SR3P:66099967:chr",P36A IEF450I JTPS025Z STEP005 OF006 - ABEND = S000 U0099,2020-02-17 12:57:06,AF Operator-N-P,2 - Medium,N_USA_XXX_REGIONAL DATA CENTER,3 - Low
+INC6170294,IBM NetCool,"Feb-17-2020 07:02:00 AM :  SXW_CVDB : 3  Aborted Jobs : TAG- BIAS CVDB_0500S_ASXW404Z_OPTI_VHCLSALESCODE_I - Mon Feb 17 06:42:38 2020 , CVDB_0700S_ASXW412Z_OPTI_VHCLORDRRSGMT_UI - Mon Feb 17 06:38:11 2020 , CVDB_0800S_ASXW414Z_OPTI_VHCLSPCLEQUIP_D - Mon Feb 17 06:50:01 2020",shi013etlp02 Feb-17-2020 07:02:00 AM : SXW_CVDB : 3 Aborted Jobs : TAG- BIAS CVDB_0500S_ASXW404Z_OPT,2020-02-17 13:02:26,shi013etlp02,3 - Low,N_USA_XXX_Bus_Analytics_App_Suppt,3 - Low
+INC6148684,IBM NetCool,"Summary: Oracle ama0001p Auto-Extend tablespace:TSMA0I01 problem. RC:40:TABLESPACE USED SPACE IS HIGH
+
+Date: 02/12/2020	Severity: Warning
+ResourceId: dbr01xjbx.xjb.ibmit.bluecare.ibm.com
+TicketGroup: cd4e614d0fd49600a8a0e388b1050ebb	CustomerCode: xjb
+Event received out side of service hours.
+Location: PERO
+InstanceId: ama0001p:TSMA0I01
+InstanceValue: TABLESPACE USED SPACE IS HIGH
+InstanceSituation: Tablespace problem
+ComponentType: Database
+Component: Oracle
+SubComponent: Unknown
+ApplId: ORACLE
+MsgId: ORATSA499E
+Node: xjb_dbr01xjbx
+NodeAlias: 151.87.64.226
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_tsautexprova_g12w_ora
+AlertGroup: ITM_K12_AUTOEXTEND_TABLESPACE
+EventType: 42041
+MonitoringSolution: ora
+EventKey: IT01NO1SR3P:65916381:xjb",dbr01xjbx Oracle ama0001p Auto-Extend tablespace:TSMA0I01 problem. RC:40:TABLESPACE USED SPACE IS HI,2020-02-12 01:58:12,dbr01xjbx,3 - Low,E_XXX_XXX_DIST-DAT-DATABASE_IBM,3 - Low
+INC6139340,IBM NetCool,"Summary: Cleared and Re-fired: Oracle ama0001p Auto-Extend tablespace:TSMA0D01 problem. RC:40:TABLESPACE USED SPACE IS HIGH
+
+Date: 02/10/2020	Severity: Warning
+ResourceId: dbr01xjbx.xjb.ibmit.bluecare.ibm.com
+TicketGroup: cd4e614d0fd49600a8a0e388b1050ebb	CustomerCode: xjb
+Originally received out side of service hours but now in service hours.
+Location: PERO
+InstanceId: ama0001p:TSMA0D01
+InstanceValue: TABLESPACE USED SPACE IS HIGH
+InstanceSituation: Tablespace problem
+ComponentType: Database
+Component: Oracle
+SubComponent: Unknown
+ApplId: ORACLE
+MsgId: ORATSA499E
+Node: xjb_dbr01xjbx
+NodeAlias: 151.87.64.226
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_tsautexprova_g12w_ora
+AlertGroup: ITM_K12_AUTOEXTEND_TABLESPACE
+EventType: 42041
+MonitoringSolution: ora
+EventKey: IT01NO1SR3P:65853523:xjb
+The event was auto-resolved 1 times and reoccurs, the incident history is: INC6134355.",dbr01xjbx Cleared and Re-fired: Oracle ama0001p Auto-Extend tablespace:TSMA0D01 problem. RC:40:TABLE,2020-02-10 11:20:07,dbr01xjbx,3 - Low,G_XXX_XXX_OPT-TIVOLI MONITORING_IBM,3 - Low
+INC6162343,IBM NetCool,"ORGTICKETGROUP=d5d8c72d0f101a009539ee68b1050eb9
+Summary: Service in alert state. Name W32Time. state: Stopped Attention commas replaced by dots.
+
+Date: 02/14/2020	Severity: Critical
+ResourceId: app19cnhwnew.w82.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: w82
+Location: PERO
+InstanceId: W32Time
+InstanceValue: Stopped
+InstanceSituation: Services status
+ComponentType: Application
+Component: Windows
+SubComponent: Service
+ApplId: WIN
+MsgId: WINTSA372W
+Node: w82_app19cnhwnew
+NodeAlias: 141.86.234.107
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_svc_gntc_win_2
+AlertGroup: ITM_NT_Services
+EventType: 22239
+MonitoringSolution: win
+EventKey: IT01NO1SR3P:66001717:w82
+The event was auto-resolved 18 times and reoccurs, the incident history is: INC6088439,INC6088677,INC6089638,INC6089856,INC6090029,INC6090149,INC6090249,INC6090374,INC6093660,INC6097077,INC6097837,INC6098483,INC6098858,INC6099175,INC6099428,INC6099641,INC6099713,INC6155523.
+ Flapping condition was previously reached. Incident is opened in Human Group, only manual resolution is possible.",app19cnhwnew Service in alert state. Name W32Time. state: Stopped Attention commas replaced by dots.,2020-02-14 14:36:33,APP19CNHWNEW,2 - Medium,E_XXX_XXX_DIST-SMD-WINTEL_IBM,3 - Low
+INC6169244,IBM NetCool,"ORGTICKETGROUP=0d4e614d0fd49600a8a0e388b1050ebc
+Summary: High space used (90%. 55010 MB free) for /host/uxhaznim7a/ML_nfs Attention commas replaced by dots.
+
+Date: 02/17/2020	Severity: Minor
+ResourceId: ibm-ytogcnc2-nd.cnc.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: cnc
+Location: HAZELWOOD
+InstanceId: /host/uxhaznim7a/ML_nfs
+InstanceValue: 90%/55010
+InstanceSituation: Filesystem usage threshold reached
+ComponentType: OperatingSystem
+Component: AIX
+SubComponent: FileSystem
+ApplId: AIX
+MsgId: AIXTSA203E
+Node: cnc_ibm-ytogcnc2-nd
+NodeAlias: 146.47.242.23
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: all_fss_x07m_aix
+AlertGroup: ITM_K07_FILESYSTEMMONITOR
+EventType: 34721
+MonitoringSolution: aix
+EventKey: IT01NO1SR3P:66093444:cnc
+The event was auto-resolved 7 times and reoccurs, the incident history is: INC6080836,INC6081192,INC6109118,INC6110127,INC6110227,INC6138825,INC6169168.
+ Flapping condition was previously reached. Incident is opened in Human Group, only manual resolution is possible.",ibm-ytogcnc2-nd High space used (90%. 55010 MB free) for /host/uxhaznim7a/ML_nfs Attention commas re,2020-02-17 10:14:47,IBM-YTOGCNC2-ND,3 - Low,E_XXX_XXX_DIST-SMD-UNIX_IBM,3 - Low
+INC6166553,IBM NetCool,"Summary: (Received during suppression) ITM Agent Offline: xjb_dbl20xjbx_A:12
+
+Date: 02/16/2020	Severity: Critical
+ResourceId: dbl20xjbx_A.xjb.ibmit.bluecare.ibm.com
+TicketGroup: 9dd8c72d0f101a009539ee68b1050ebb	CustomerCode: xjb
+Event received out side of service hours.
+InstanceId: xjb_dbl20xjbx_A:12
+InstanceValue: Offline
+InstanceSituation: MS Status
+ComponentType: ManagementInfrastructure
+Component: ITM6Agent
+SubComponent: 12
+ApplId: ITM
+MsgId: TIVTSA084E
+Node: xjb_dbl20xjbx_A
+NodeAlias: 151.88.92.202
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: MS_Offline_1
+AlertGroup: ITM_ManagedSystem
+EventType: 41401
+MonitoringSolution: aix
+EventKey: IT01NO1SR3P:66048284:xjb",(Received during suppression) ITM Agent Offline: xjb_dbl20xjbx_A:12,2020-02-16 09:05:27,dbl20xjbx,2 - Medium,E_CZE_XXX_CC-SSOTEBOTIV_IBM,3 - Low
+INC6166521,IBM NetCool,"Summary: (Received during suppression) ITM Agent Offline: xjb_dbl20xjbx_A:07
+
+Date: 02/16/2020	Severity: Critical
+ResourceId: dbl20xjbx_A.xjb.ibmit.bluecare.ibm.com
+TicketGroup: 9dd8c72d0f101a009539ee68b1050ebb	CustomerCode: xjb
+Event received out side of service hours.
+InstanceId: xjb_dbl20xjbx_A:07
+InstanceValue: Offline
+InstanceSituation: MS Status
+ComponentType: ManagementInfrastructure
+Component: ITM6Agent
+SubComponent: 07
+ApplId: ITM
+MsgId: TIVTSA084E
+Node: xjb_dbl20xjbx_A
+NodeAlias: 151.88.92.202
+Manager: EIF Probe on it06cnp00sr03xm
+Agent: EIF Probe on it06cnp00sr03xm
+AlertKey: MS_Offline_1
+AlertGroup: ITM_ManagedSystem
+EventType: 41401
+MonitoringSolution: aix
+EventKey: IT01NO1SR3P:66048283:xjb",(Received during suppression) ITM Agent Offline: xjb_dbl20xjbx_A:07,2020-02-16 09:04:54,dbl20xjbx,2 - Medium,E_CZE_XXX_CC-SSOTEBOTIV_IBM,3 - Low
+INC6170349,IBM NetCool,"ORGTICKETGROUP=777bc10d6fe97500ae07b03f5d3ee44d
+Summary: Process Missing: sshd
+
+Date: 02/17/2020	Severity: Critical
+ResourceId: cli002cqrt02.chr.ibmit.bluecare.ibm.com
+TicketGroup: d350e3d06fac9640ca4c9f5e5d3ee445	CustomerCode: chr
+InstanceId: sshd
+InstanceValue: Missing
+InstanceSituation: chr_prcmis_xuxc_aix
+ComponentType: AIX_NAFTA
+Component: UNIX
+SubComponent: Process
+ApplId: UNIX
+MsgId: UNIXTSA184E
+Node: chr_cli002cqrt02
+NodeAlias: 151.171.120.187
+Manager: EIF Probe on shibmp008
+Agent: EIF Probe on shibmp008
+AlertKey: chr_prcmis_xuxc_aix
+AlertGroup: ITM_Process
+EventType: 37341
+MonitoringSolution: aix
+EventKey: IT01NO1SR3P:66100274:chr",cli002cqrt02 Process Missing: sshd,2020-02-17 13:15:28,cli002cqrt02,2 - Medium,N_USA_XXX_MID SYSTEMS PROD SUPPT(MSPS),3 - Low
+INC6170304,IBM NetCool,"Feb-17-2020 07:04:00 AM :  SXY_VSCS : 2  Aborted Jobs : TAG- BIAS VSCS_3600S_ASXY741Z_OPTI_SVWVON_UI - Mon Feb 17 06:34:59 2020 , VSCS_3610M_ASXY_OPTI_SVWVON_UI - Mon Feb 17 06:35:00 2020",shi013etlp02 Feb-17-2020 07:04:00 AM : SXY_VSCS : 2 Aborted Jobs : TAG- BIAS VSCS_3600S_ASXY741Z_OPT,2020-02-17 13:04:27,shi013etlp02,3 - Low,N_USA_XXX_Bus_Analytics_App_Suppt,3 - Low
