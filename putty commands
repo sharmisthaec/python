@@ -1,0 +1,33 @@
+Hi Team,
+
+If we face any issue in TWS where we are not able to monitor, during these critical times we can use our command line, to monitor the jobs. Please have a look on the below procedures to use TWS in command line.
+
+IP's To log into TWS via Putty:
+
+    FA0, FA2, FA3, FA4 - 158.98.133.214
+    FS0, FS9, IV1, NH1 - 158.98.133.225
+    IV2 - 158.98.133.233
+    FA1 - 129.39.134.70
+    FA9 - 158.98.133.236
+
+
+Login procedure:
+
+    Step 1: Log in with the user ID credentials
+    Step 2: Type this command. sudo su - maew<mastername> eg: sudo su - maewfa2
+    Step 3: conman
+
+
+Commands to use:
+
+    sj @#@.@+state=ABEND | grep "ABEND" ==========> Shows all the jobs that are abend in that master starting the J-Next Time..
+    confirm <Workstation_Name>#<Stream_Name>.<Job_Name>;SUCC ========> To confirm success a job.
+    rr <Workstation_Name>#<Stream_Name>.<Job_Name> ========> rerun a job.
+    sj <Workstation_Name>#<Stream_Name>.<Job_Name>;stdlist ======> to check the job log.
+    sj <Workstation_Name>#<Job_Number>;single;stdlist =======> alternate way to get the job log.
+    cj <Workstation_Name>#<Stream_Name>.<Job_Name> =======> to cancel the job.
+
+Please be careful while performing the actions using the command line, Do not perform any action with assumptions. If any doubts you can contact me anytime.
+
+Thank you, have a nice day.
+

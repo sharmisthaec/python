@@ -1,0 +1,9 @@
+requests
+bs4 
+facebook
+random
+os
+tweepy
+instabot
+py3-pinterest
+python-3.6

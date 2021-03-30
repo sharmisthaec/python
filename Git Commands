@@ -1,0 +1,163 @@
+Configuring Git
+
+$ git config --global user.name "My Name"
+$ git config --global user.email myEmail@example.com
+
+
+
+
+Creating a new repository - git init
+
+$ cd Desktop/git_exercise/
+$ git init
+
+
+
+
+Checking the status - git status
+
+$ git status
+
+
+
+
+
+
+Staging - git add
+
+$ git add hello.txt
+
+$ git add -A
+
+$ git status
+
+
+
+
+
+Commiting - git commit
+
+$ git commit -m "Initial commit."
+
+
+
+
+
+
+
+Connecting to a remote repository - git remote add
+
+$ git remote add origin https://github.com/tutorialzine/awesome-project
+
+
+Remove origin
+$ git remote rm/remove origin
+
+
+
+Uploading to a server - git push
+
+$ git push origin master
+
+# adds all the files and folders of current directory to the remote repo
+
+
+
+
+
+Cloning a repository - git clone
+
+$ git clone https://github.com/tutorialzine/awesome-project
+
+
+
+
+
+
+
+Getting changes from a server - git pull
+
+$ git pull origin master
+
+
+
+
+
+
+Creating new branches - git branch
+$ git branch amazing_new_feature
+
+
+
+
+Switching branches - git checkout
+
+$ git branch
+
+$ git checkout amazing_new_feature
+
+
+
+
+
+
+Merging branches - git merge
+
+$ git add feature.txt
+$ git commit -m "New feature complete."
+
+$ git checkout master
+
+$git merge amazing_new_feature
+
+
+
+
+delete branch
+
+$git branch -d amazing_new_feature
+
+
+
+
+Checking difference between commits
+
+$ git log
+
+$ git show b10cc123
+
+$ git diff 09bd8cc..ba25c0ff
+
+
+
+
+Reverting a file to a previous version
+
+$ git checkout 09bd8cc1 hello.txt
+
+
+Remove git repo
+
+$rm -rf .git
+$rm -rf git_folder
+
+
+Unstage Git
+
+$git reset HEAD file
+
+
+create a new repository on the command line
+
+echo "# mp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:sharmisthaec/mp.git
+git push -u origin master
+                
+                
+                
+forefully pull the origin to local repo
+
+$ git pull origin master --allow-unrelated-histories

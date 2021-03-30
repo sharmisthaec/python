@@ -1,0 +1,90 @@
+{
+   "data": [
+      {
+         "access_token": "EAAcopOZB7ZBfABAOZCtzkDv9n8m2V6ZATkHezehwJO1GmYfasPDANIgo1gmc72rb8fjIbTewSZA4RNV2imGGa4iARZAiROzht0R3gEyFcVDR6YndiZCaZCvMCm1MZANzFzAvL8Wg83UQ6R3NbG7ZCELrpzS9V61Nh03R8VuD5TGtP1hQZDZD",
+         "category": "Education",
+         "category_list": [
+            {
+               "id": "2250",
+               "name": "Education"
+            }
+         ],
+         "name": "Techno Glance",
+         "id": "331451277680188",
+         "tasks": [
+            "ANALYZE",
+            "ADVERTISE",
+            "MODERATE",
+            "CREATE_CONTENT",
+            "MANAGE"
+         ]
+      },
+      {
+         "access_token": "EAAcopOZB7ZBfABAKjHSLOUI7nkCl26gV0ZBoVg94qZCSqllAJkv21Oe5ZB6flBVXukGy5zfksaW5ImBgFDuE3G6OdN8LjF2m4njrxJBCg1RKRTp7P13oPxRZCjZAuPyfkBSEwQZBdpkAUR8bVM1apBnqZBABeZC5IswJY30EXtkmPWZBQZDZD",
+         "category": "Clothing (brand)",
+         "category_list": [
+            {
+               "id": "2209",
+               "name": "Clothing (brand)"
+            }
+         ],
+         "name": "Cartflee",
+         "id": "902680339881675",
+         "tasks": [
+            "ANALYZE",
+            "ADVERTISE",
+            "MODERATE",
+            "CREATE_CONTENT",
+            "MANAGE"
+         ]
+      },
+      {
+         "access_token": "EAAcopOZB7ZBfABACo1rXF2AT6f9L5amzE9pOjg6C1fhpK2iEN4cuhpZALyKq3O72RZCUsZBnyaCC8ZBAztsZBLZCHTGPjJMYPZAWyjWLM7DKr0QvfE7qNgc4MACMlZA4TTQoCtyb3rBwIt7Mw94ZChDjNNhqwbWOF0bJ4ZCFb7ZBtEmdiMQZDZD",
+         "category": "Blogger",
+         "category_list": [
+            {
+               "id": "361282040719868",
+               "name": "Blogger"
+            },
+            {
+               "id": "1105",
+               "name": "Film"
+            }
+         ],
+         "name": "Technology Glance",
+         "id": "1444302069136277",
+         "tasks": [
+            "ANALYZE",
+            "ADVERTISE",
+            "MODERATE",
+            "CREATE_CONTENT",
+            "MANAGE"
+         ]
+      },
+      {
+         "access_token": "EAAcopOZB7ZBfABACJIRXrZABuv0dR6wDkZCAZCZAeI735JusvzcG104lFuSUUhHl3WIZBalZBVSZCzruOZAUZAcRq2XuOWrSq3TGq6JZAir9S5s2quqpoHkQQXL6LXz3xJDtgiNELCZA2VepFLZBAtM9dpZBugb5jDWYoYSGUi25ZCUMiFxgqwZDZD",
+         "category": "Blogger",
+         "category_list": [
+            {
+               "id": "361282040719868",
+               "name": "Blogger"
+            }
+         ],
+         "name": "LimeVille",
+         "id": "1542934925806610",
+         "tasks": [
+            "ANALYZE",
+            "ADVERTISE",
+            "MODERATE",
+            "CREATE_CONTENT",
+            "MANAGE"
+         ]
+      }
+   ],
+   "paging": {
+      "cursors": {
+         "before": "MzMxNDUxMjc3NjgwMTg4",
+         "after": "MTU0MjkzNDkyNTgwNjYxMAZDZD"
+      }
+   }
+}
